@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Newsletter Signup – GlowWell</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-content">
+    <h1>Welcome to GlowWell!</h1>
+    <p>Discover skincare that shines 🌟</p>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get the latest updates and offers.</p>
+      <input type="email" id="email" placeholder="Enter your email" />
+      <button onclick="subscribe()">Subscribe</button>
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
